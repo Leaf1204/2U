@@ -2,13 +2,14 @@
 
 
 ### This is an introduction lesson to __Closure in JavaScript__. It is expected the students have a basic to intermediate understanding of scope and functions in JavaScript. 
----
+
 *After this lesson students will be able to:*
 1. Define lexical Scoping
 2. Differentiate between global and local scope
 3. Define closures 
 4. Use functions to call other functions 
 
+---
 __Agenda:__
 1. Introduction: Open ended question (2 mins)
 2. Explanation and code example of lexical scoping with review of global and local scope (scaffold students understanding of scope) (8 mins)
