@@ -99,8 +99,8 @@ const myFunc = () => {
 
   What is happening here? Basically, When we run the above code, we can see that the first result is five from the original `showOranges()`. By calling the method `eatOrange()` we can take away one orange. Now, when we run `showOranges()` for a second time it shows minus one orange, so the result is 4.
  
- As long as these functions are defined from within the function we can access the date from the function anywhere.
- Every time we run `myFunc()`; it create a new copy of those functions so it will create a seperate Orange.
+ As long as these functions are defined from within the function we can access the data from the function anywhere.
+ Every time we run `myFunc()`; it create a __new copy__ of those functions so it will create a seperate Orange.
  
  If we were to copy:  
  ```
@@ -112,7 +112,7 @@ const [showOranges, eatOrange ] = myFunc()
 const [showOrange2, eatOrange2 ] = myFunc()
  console.log(showOranges2()); 
 ```
-When we run the code, the result being that `showOranges2()` is => 5 as it is referring to the first time we ran the function. When we ran the function again it created a new execution of the function which create a new Orange and returned a new set of these two functions that operate independently
+When we run the code, the result being that `showOranges2()` is => 5 as it is referring to the first time we ran the function. When we ran the function again it created a new execution of the function which create a __new__ orange and returned a new set of these two functions that operate independently
  
 ```
 const myFunc = () => {
@@ -135,4 +135,4 @@ We can compaire both side by side
  
 This is essentially what closures are! 
 The idea that you can take a function and have it go beyond its execution by returning functions that access data inside the function. Closure is taking advantage of the scoping of the data inside of a function and being able to access the data inside the function.
-we are never able to directly edit orange. We can use functions to change orange
+we are never able to directly edit orange. But, we can use functions to change orange. 
