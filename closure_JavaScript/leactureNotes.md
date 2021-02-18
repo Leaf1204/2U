@@ -29,7 +29,7 @@ __Answer:__  *Understanding closures leads to a better understanding of programm
 ---
 ## Define Lexical Scoping
 
----
+
 ## instructor demo 
 lets start off with writing a very basic function
 ```
