@@ -89,7 +89,7 @@ const myFunc = () => {
      let orange = 5;
  
     return [() =>
-       orange, () => orange++];
+       orange, () => orange--];
    };
    const [showOranges, eatOrange ] = myFunc()
    console.log(showOranges());
@@ -129,7 +129,7 @@ const myFunc = () => {
  const [showOranges2, eatOrange2 ] = myFunc()
  console.log(showOranges(), showOranges2());
  ```
- 
+
 We can compaire both side by side
 `console.log(showOranges(), showOranges2());`
  
