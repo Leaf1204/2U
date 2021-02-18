@@ -1,7 +1,7 @@
 # Topic: Closures in JavaScript- lecture facing notes 
 
 
-### This is an introduction lesson to __Closure in JavaScript__. It is expected the students have a basic to intermediate understanding of scope and functions in JavaScript. 
+### This is an introduction lesson to Closure in JavaScript. It is expected that the students have a basic to intermediate understanding of scope and functions in JavaScript. 
 
 *After this lesson students will be able to:*
 1. Define lexical Scoping
