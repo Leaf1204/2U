@@ -3,6 +3,14 @@
 
 ### This is an introduction lesson to Closure in JavaScript. It is expected that the students have a basic to intermediate understanding of scope and functions in JavaScript. 
 
+#### Creator: Leanne Frisinger
+#### References: 
+- [A Brief Introduction to Closures and Lexical Scoping in JavaScript](https://medium.com/better-programming/a-brief-introduction-to-closures-and-lexical-scoping-in-javascript-8a5866496232)
+- [What You Should Already Know about JavaScript Scope](https://spin.atomicobject.com/2014/10/20/javascript-scope-closures/)
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [JavaScript Closures](https://www.tutorialrepublic.com/javascript-tutorial/javascript-closures.php)
+
+
 *After this lesson students will be able to:*
 1. Define lexical Scoping
 2. Differentiate between global and local scope
