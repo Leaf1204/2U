@@ -41,3 +41,4 @@ let add5 = doAddition(4)
 
 Using the above starter code, create a function that will add 4 and 5 to give the answer => 9
 
+Use the doAddition() function to give the answer => 10
