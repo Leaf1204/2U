@@ -82,9 +82,9 @@ Okay but wait, didn't we just define orange?
 `let orange = 5` 
 The orange variable only exists between the curly brackets so it only exists within the context of the functions execution. Once the function is done executing, the variable gets disposed of and no longer exists.
  
-Anything inside the curly brackets does have access to `orange`. What we can do is we can create return a function.
+Anything inside the curly brackets does have access to `orange`. What we can do is create return a function.
 `return () => orange` 
-Since a function can take the return value of another function, we can put this to good use by adding `  const showOranges = myFunc()`. Now we can `console.log(showOranges());`
+Since a function can take the return value of another function, we can put this to good use by adding `const showOranges = myFunc()`. Now we can `console.log(showOranges());`
 
 ```
 const myFunc = () => {
@@ -98,7 +98,7 @@ const myFunc = () => {
    console.log(showOranges());
  ```
 
-The above code gives us access to the variable five. Why?
+The above code gives us access to the variable five. Why? <br/>
  Because even though the function is called outside of the curly brackets, the definition of the function is inside the curly brackets so it still has access to the number 5.
  
  With this understanding we can start making more complex situations. 
