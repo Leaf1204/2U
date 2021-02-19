@@ -82,11 +82,10 @@ Okay but wait, didn't we just define orange?
 `let orange = 5` 
 The orange variable only exists between the curly brackets so it only exists within the context of the functions execution. Once the function is done executing, the variable gets disposed of and no longer exists.
  
-Anything inside the curly brackets does have access to `orange`. What we can do is we can return a function. 
+Anything inside the curly brackets does have access to `orange`. What we can do is we can craete return a function.
+`return () => orange` 
 
 ```
-return () => orange
- 
 const myFunc = () => {
      let orange = 5;
  
