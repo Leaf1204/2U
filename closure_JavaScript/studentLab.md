@@ -2,10 +2,6 @@
 
 #### Topic: Closure in JavaScript
 #### Creator: Leanne Frisinger
-#### References: 
-- [A Brief Introduction to Closures and Lexical Scoping in JavaScript](https://medium.com/better-programming/a-brief-introduction-to-closures-and-lexical-scoping-in-javascript-8a5866496232)
-- [What You Should Already Know about JavaScript Scope](https://spin.atomicobject.com/2014/10/20/javascript-scope-closures/)
-- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 ----
 ### Question 1
