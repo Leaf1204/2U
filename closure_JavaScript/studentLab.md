@@ -24,6 +24,6 @@ Now that you have access to that variable `x`, create a function that allows you
     return sayFristName
 }
 
-var value = init();
+let value = init();
 ```
 When we run the following code, nothing happens. Fix the code so that, when run we are able to print out the varible `firstName` in the console. Feel free to change the varible to your first name. 
