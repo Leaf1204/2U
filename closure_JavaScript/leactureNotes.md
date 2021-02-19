@@ -27,8 +27,42 @@ __Question:__  *Why is having a solid understanding of closures in JavaScript so
 __Answer:__  *Understanding closures leads to a better understanding of programming itself. Questions regarding closures and their applications are commonly asked during technical interviews. As JavaScript Developers, chances are you already using closures and just don't know it. Most of the JavaScript Developers use closure consciously or unconsciously. Being able to understand closure will provide you with better control over the code when using them. Additionally, having a strong understand of closure will greatly help when it comes to working with React hooks and Redux* 
 
 ---
-## Define Lexical Scoping
+## Local and Global Scope:
+We already know that in JavaScript there are two types of scope:
+- Local scope
+- Global scope<br/>
 
+JavaScript has function scope, meaning each function creates a new scope.
+Scope determines the accessibility (visibility) of these variables.
+Variables defined inside a function are not accessible (visible) from outside the function.<br/>
+Variables declared within a JavaScript function, become __local__ to the function.
+Local variables have Function scope, meaning they can only be accessed from within the function.
+When variables are declared outside of any and all functions, the value of the variable is accessible to all other functions (and all functions within those functions), and are scoped __globally__.
+
+## Lexical Scoping
+JavaScript does not have block scope even though it’s block syntax suggests that it does. What Javascript does has however is function scope. This means that parameters and variables defined in a function are not visible outside of the function, and that a function defined anywhere within a function is visible everywhere within the function. Lexical scope is the ability for a function scope to access variables from the parent scope. We call the child function to be lexically bound by that of the parent function. 
+
+```
+function init(){
+   let firstName = "Bob"
+ 
+   function sayFristName(){
+       console.log(firstName);
+   }
+ 
+   sayFristName()
+}
+ 
+init();
+```
+In the above code `init()` creates a local variable called firstName and a function called `sayFirstName()`. The `sayFirstName()` function is an inner function that is defined inside `init()` and is available only within the body of the `init()` function. `sayFirstName()` function has no local variables of its own. However, since inner functions have access to the variables of outer functions, `sayFirstName()` can access the variable firstName declared in the parent function, `init()`.
+
+The `console.log(firstName)` statement within the `sayFirstName()` function successfully displays the value of the name variable __“Bob”__, which is declared in its parent function. This is an example of lexical scoping, which describes how a parser resolves variable names when functions are nested.
+
+__Question:__  *What would happen if we were to add `console.log(firstName)` after `init()`?* <br/>
+__Answer:__ *error undefined*  
+
+The reason for this is because of closure.
 
 ## instructor demo 
 lets start off with writing a very basic function
@@ -137,3 +171,6 @@ We can compaire both side by side
 This is essentially what closures are! 
 The idea that you can take a function and have it go beyond its execution by returning functions that access data inside the function. Closure is taking advantage of the scoping of the data inside of a function and being able to access the data inside the function.
 we are never able to directly edit orange. But, we can use functions to change orange. 
+
+## Student lab
+Instruct students to the lab markdown. Answer/ help students who request assistance during lab time. 3  sets of question 15 mins each. 
