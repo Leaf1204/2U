@@ -175,4 +175,7 @@ The idea that you can take a function and have it go beyond its execution by ret
 we are never able to directly edit orange. But, we can use functions to change orange. 
 
 ## Student lab
-Instruct students to the lab markdown. Answer/ help students who request assistance during lab time. 3  sets of question 15 mins each. 
+Instruct students to the lab markdown. Answer/ help students who request assistance during lab time. 3  sets of questions 15 mins each. 
+
+## Review Session
+Go over the student lab. Answers are in the solutions folder. Use this time to explain the concepts from each student activity (30 mins)
