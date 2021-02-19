@@ -7,7 +7,7 @@
 1. Define lexical Scoping
 2. Differentiate between global and local scope
 3. Define closures 
-4. Use functions to call other functions 
+4. Use closures 
 
 ---
 __Agenda:__
