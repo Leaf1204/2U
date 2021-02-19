@@ -1,4 +1,4 @@
-# Topic: Closures in JavaScript- student facing notes #
+# Topic: Closures in JavaScript- student Lab #
 ---
 ### Question 1
 ```
@@ -13,3 +13,17 @@ In the above code, the variable  `x` is not defined. Create a function `getX()` 
 Now that you have access to that variable `x`, create a function that allows you to add one to `x` => 8. 
 
 ## Question 2
+ ```
+ function init(){
+    let firstName = "Leanne"
+
+    function sayFristName(){
+        console.log(firstName);
+    }
+
+    return sayFristName
+}
+
+var value = init();
+```
+When we run the following code, nothing happens. Fix the code so that, when run we are able to print out the varible `firstName` in the console. Feel free to change the varible to your first name. 
