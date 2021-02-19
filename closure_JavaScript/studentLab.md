@@ -2,7 +2,7 @@
 ---
 ### Question 1
 ```
-const ClosureTest = () => {
+const closureTest = () => {
   let x = 7;
 }
 
